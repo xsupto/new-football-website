@@ -86,6 +86,16 @@ nav{
     padding-top: 50px;
     margin-bottom: 27px;
 }
+
+.headline img{
+    width: 95px;
+    height: 95px;
+    /* position: relative; */
+
+}
+
+
+
 .headline-text h1{
     width: 485px;
     height: 230px;
@@ -211,6 +221,59 @@ height: 427px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.151);
 }
 
+/*-------------------------
+     Email Update 
+---------------------------*/
+.email-update{
+background-color: #2D25A0;
+height: 200px
+}
+
+.email-update h2{
+    color: white;
+    text-align: center;
+}
+
+.sub-section{
+    text-align: center!important;
+  
+}
+
+.sub-section input{
+   
+  
+   width: 50%;
+    padding: 10px 24px;
+    
+    font-size: 16px;
+    line-height: 24px;
+    border: 0;
+}
+
+.condition{
+    display: inline-block;
+color: white;
+width: 60%;
+align-items: center;
+
+}
+
+.subscribe-button{
+    
+    margin-top: 27px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px 24px;
+    background: #E02C6D;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border: 0;
+}
+
+
+
 
 
 /*----------------------------------
@@ -254,3 +317,95 @@ footer{
 footer p{
     text-align: center;
 }
+
+
+/*---------------------- 
+      Midea Quires  
+------------------------*/
+@media only screen and (max-width:688px){
+
+header{
+        height: 100%;
+        width: 100%;
+}
+
+nav{
+        display: grid;
+    grid-template-columns: repeat(1fr , 1fr);
+      width: 100%;
+    }
+    .menu ul {
+        display: flex;
+        justify-content: center;
+        grid-column-gap: 36px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-end;
+    }
+    .headline {
+        display: flex;
+       
+        margin-bottom: 27px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-between;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .players {
+        display: grid;
+        grid-template-columns: repeat(1 ,1fr);
+        grid-template-rows: auto;
+        justify-content: center;
+    }
+
+
+    .copa-highlights {
+        display: grid;
+        grid-template-columns: repeat(1 ,1fr);
+        grid-template-rows: auto;
+        justify-content: center;
+    }
+
+.recent-match{
+    align-items: center;
+    
+}
+
+
+    .videos{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: flex-start;
+    }
+ 
+    .video-youtube{
+        width: 100%;
+    }
+
+
+.match-vedio-titel{
+    display: block;
+    width: 80%;
+    
+    margin-left: 0;
+    font-size: 25px ;
+   
+    margin-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+    
