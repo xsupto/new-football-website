@@ -1,3 +1,8 @@
+
+/*----------------------------
+         CORE STYLES 
+-----------------------------*/
+
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -17,16 +22,21 @@ header{
     height: 677px;
     width: 100%;
 }
+/*-----------------------------
+         NAV BAR STYLES 
+------------------------------*/
 
 nav{
     display: flex;
     justify-content:space-around;
     align-items: center;
+    
 }
 .menu ul{
     display: flex;
     justify-content: center;
     grid-column-gap: 36px;
+    
 }
 .menu ul li{
     list-style: none;
@@ -35,6 +45,8 @@ nav{
     text-decoration: none;
     font-size: 16px;
     color: #FFFFFF;
+    padding: 8px;
+    
 }
 .login{
     text-align: center;
@@ -51,6 +63,21 @@ nav{
     text-decoration: none;
     color: white;
 }
+
+.menu ul li a:hover{
+    background-color: #E02C6D;
+    
+    border-radius: 3px;
+}
+
+
+.login:hover{
+    background-image: linear-gradient(#E02C6D , #ff9bbe);
+}
+
+/*------------------------------
+             TOP SECTION  
+-------------------------------*/
 
 .headline{
     display: flex;
@@ -91,6 +118,10 @@ nav{
     color: white;
 }
 
+/*------------------------------
+         GRID SECTION  
+-------------------------------*/
+
 .our-players{
     margin: 70px 210px ;
 }
@@ -124,6 +155,9 @@ margin: 16px 0px;
     line-height: 26px;
 }
 
+/*--------------------------------
+         Highlights SECTION 
+----------------------------------*/
 
 .copa-highlights{
     display: flex;
@@ -145,6 +179,44 @@ margin: 16px 0px;
     width: 567px;
 height: 427px;
 }
+
+/*------------------------------
+
+            Videos
+------------------------------*/
+.recent-match{
+  margin-left: 194px;
+}
+.match-vedio-titel{
+    text-align: center;
+    font-size: 40px;
+    margin-right: 160px;
+    margin-top: 100px;
+    background-color: #E02C6D;
+    border-radius: 50px;
+    color: #FFFFFF;
+
+}
+
+.videos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+}
+
+.video-youtube iframe{
+    width: 80%;
+    border-radius: 10px;
+   
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.151);
+}
+
+
+
+/*----------------------------------
+         FOOTER SECTION  
+-----------------------------------*/
+
 footer{
     display: flex;
     flex-direction: column;
